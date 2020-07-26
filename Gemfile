@@ -66,3 +66,7 @@ group :development, :test do
 end
 
 gem "devise_invitable", "~> 2.0"
+
+gem "haml", "~> 5.1"
+
+gem "erb2haml", "~> 0.1.5", :group => :development
