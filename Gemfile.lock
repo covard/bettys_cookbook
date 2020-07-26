@@ -84,6 +84,9 @@ GEM
     devise-pwned_password (0.1.8)
       devise (~> 4)
       pwned (~> 2.0.0)
+    devise_invitable (2.0.2)
+      actionmailer (>= 5.0)
+      devise (>= 4.6)
     erubi (1.9.0)
     factory_bot (6.1.0)
       activesupport (>= 5.0.0)
@@ -230,6 +233,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   devise
   devise-pwned_password
+  devise_invitable (~> 2.0)
   factory_bot_rails
   gravatar_image_tag
   jbuilder (~> 2.7)

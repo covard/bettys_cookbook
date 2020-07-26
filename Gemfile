@@ -64,3 +64,5 @@ gem 'gravatar_image_tag'
 group :development, :test do
   gem 'factory_bot_rails'
 end
+
+gem "devise_invitable", "~> 2.0"
